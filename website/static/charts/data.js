@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795028037590,
+  "lastUpdate": 1795028050729,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -777219,54 +777219,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "49699333+dependabot[bot]@users.noreply.github.com",
-            "name": "dependabot[bot]",
-            "username": "dependabot[bot]"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "cd22c52e0025d2747b2cf8f561b5ca2a291563a8",
-          "message": "Build(deps): Bump follow-redirects from 1.16.1 to 1.16.2 in /website (#2336)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.1 to 1.16.2.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.1...v1.16.2)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-          "timestamp": "2026-10-31T09:57:22-07:00",
-          "tree_id": "ea29ab4c57b12d15e68272829eb4f2546e5c951a",
-          "url": "https://github.com/microsoft/garnet/commit/cd22c52e0025d2747b2cf8f561b5ca2a291563a8"
-        },
-        "date": 1793466296045,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
-            "value": 30443.36333993765,
-            "unit": "ns",
-            "range": "± 35.48970294499496"
-          },
-          {
-            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
-            "value": 30380.22400817871,
-            "unit": "ns",
-            "range": "± 41.28403467670312"
-          },
-          {
-            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
-            "value": 23391.431763869066,
-            "unit": "ns",
-            "range": "± 11.3127532683434"
-          },
-          {
-            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
-            "value": 22891.70888264974,
-            "unit": "ns",
-            "range": "± 21.798081949771703"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -779613,6 +779565,54 @@ window.BENCHMARK_DATA = {
             "value": 19149.352537027993,
             "unit": "ns",
             "range": "± 74.74020779457061"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5a450e7700ab04a271e0cc55521f92fb85de43b",
+          "message": "Fix missing diagnostics build inputs in Linux Docker images (#2408)",
+          "timestamp": "2026-11-18T10:49:12-08:00",
+          "tree_id": "c1f2a93876bffc7080fee5005324c01fbd9a2940",
+          "url": "https://github.com/microsoft/garnet/commit/b5a450e7700ab04a271e0cc55521f92fb85de43b"
+        },
+        "date": 1795028035641,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Get(Params: None)",
+            "value": 29499.86707196917,
+            "unit": "ns",
+            "range": "± 235.41872083330793"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.Set(Params: None)",
+            "value": 30380.428052629744,
+            "unit": "ns",
+            "range": "± 15.197789610698356"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MGet(Params: None)",
+            "value": 22060.155208333334,
+            "unit": "ns",
+            "range": "± 117.55418842041682"
+          },
+          {
+            "name": "BDN.benchmark.Cluster.ClusterMigrate.MSet(Params: None)",
+            "value": 22359.87661977915,
+            "unit": "ns",
+            "range": "± 60.54823670503735"
           }
         ]
       }
