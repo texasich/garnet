@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795027993526,
+  "lastUpdate": 1795028004777,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -735505,54 +735505,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "49699333+dependabot[bot]@users.noreply.github.com",
-            "name": "dependabot[bot]",
-            "username": "dependabot[bot]"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "cd22c52e0025d2747b2cf8f561b5ca2a291563a8",
-          "message": "Build(deps): Bump follow-redirects from 1.16.1 to 1.16.2 in /website (#2336)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.1 to 1.16.2.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.1...v1.16.2)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-          "timestamp": "2026-10-31T09:57:22-07:00",
-          "tree_id": "ea29ab4c57b12d15e68272829eb4f2546e5c951a",
-          "url": "https://github.com/microsoft/garnet/commit/cd22c52e0025d2747b2cf8f561b5ca2a291563a8"
-        },
-        "date": 1793466289720,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AAD)",
-            "value": 120889.65515136719,
-            "unit": "ns",
-            "range": "± 1172.7251632845703"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: ACL)",
-            "value": 62315.629368373324,
-            "unit": "ns",
-            "range": "± 88.42372953014865"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AOF)",
-            "value": 170517.7263997396,
-            "unit": "ns",
-            "range": "± 596.8054037802905"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: None)",
-            "value": 123930.36512044272,
-            "unit": "ns",
-            "range": "± 274.0246962565777"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -737899,6 +737851,54 @@ window.BENCHMARK_DATA = {
             "value": 63371.80265299479,
             "unit": "ns",
             "range": "± 186.88727193340435"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5a450e7700ab04a271e0cc55521f92fb85de43b",
+          "message": "Fix missing diagnostics build inputs in Linux Docker images (#2408)",
+          "timestamp": "2026-11-18T10:49:12-08:00",
+          "tree_id": "c1f2a93876bffc7080fee5005324c01fbd9a2940",
+          "url": "https://github.com/microsoft/garnet/commit/b5a450e7700ab04a271e0cc55521f92fb85de43b"
+        },
+        "date": 1795027996682,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AAD)",
+            "value": 127206.84359305246,
+            "unit": "ns",
+            "range": "± 731.3828841038923"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: ACL)",
+            "value": 62612.073041643416,
+            "unit": "ns",
+            "range": "± 579.2209846920873"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AOF)",
+            "value": 169717.40100911458,
+            "unit": "ns",
+            "range": "± 1189.2744451372946"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: None)",
+            "value": 122348.18844839242,
+            "unit": "ns",
+            "range": "± 356.95225221545417"
           }
         ]
       }
