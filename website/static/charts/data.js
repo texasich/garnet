@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795028050729,
+  "lastUpdate": 1795028061180,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -789237,54 +789237,6 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "5729f70967bb05f207a49bff4aa64b6220cc19af",
-          "message": "Build(deps): Bump joi from 17.13.8 to 17.13.9 in /website (#2335)\n\nBumps [joi](https://github.com/hapijs/joi) from 17.13.8 to 17.13.9.\n- [Commits](https://github.com/hapijs/joi/compare/v17.13.8...v17.13.9)\n\n---\nupdated-dependencies:\n- dependency-name: joi\n  dependency-version: 17.13.9\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
-          "timestamp": "2026-10-31T09:57:03-07:00",
-          "tree_id": "f1468eb0cdb38d710d6234138444daae0015ca03",
-          "url": "https://github.com/microsoft/garnet/commit/5729f70967bb05f207a49bff4aa64b6220cc19af"
-        },
-        "date": 1793466250133,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AAD)",
-            "value": 2056.613451639811,
-            "unit": "ns",
-            "range": "± 31.966878792657994"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
-            "value": 1961.3604651557075,
-            "unit": "ns",
-            "range": "± 73.16984507053054"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
-            "value": 1834.5192500523158,
-            "unit": "ns",
-            "range": "± 15.559786473474443"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
-            "value": 1825.9648050580706,
-            "unit": "ns",
-            "range": "± 14.094743872392614"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "49699333+dependabot[bot]@users.noreply.github.com",
-            "name": "dependabot[bot]",
-            "username": "dependabot[bot]"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
           "id": "cd22c52e0025d2747b2cf8f561b5ca2a291563a8",
           "message": "Build(deps): Bump follow-redirects from 1.16.1 to 1.16.2 in /website (#2336)\n\nBumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.1 to 1.16.2.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.1...v1.16.2)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
           "timestamp": "2026-10-31T09:57:22-07:00",
@@ -791621,6 +791573,54 @@ window.BENCHMARK_DATA = {
             "value": 1305.4853984287806,
             "unit": "ns",
             "range": "± 34.48160042825675"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5a450e7700ab04a271e0cc55521f92fb85de43b",
+          "message": "Fix missing diagnostics build inputs in Linux Docker images (#2408)",
+          "timestamp": "2026-11-18T10:49:12-08:00",
+          "tree_id": "c1f2a93876bffc7080fee5005324c01fbd9a2940",
+          "url": "https://github.com/microsoft/garnet/commit/b5a450e7700ab04a271e0cc55521f92fb85de43b"
+        },
+        "date": 1795028053640,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AAD)",
+            "value": 2080.4559580485025,
+            "unit": "ns",
+            "range": "± 16.397964622821377"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 1863.1071363176618,
+            "unit": "ns",
+            "range": "± 9.073306103999698"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 1938.166732788086,
+            "unit": "ns",
+            "range": "± 23.049528229579522"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 1853.475148337228,
+            "unit": "ns",
+            "range": "± 10.523158447013286"
           }
         ]
       }
